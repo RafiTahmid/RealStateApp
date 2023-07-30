@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PropertyCardComponent } from './property/property-card/property-card.component';
 import { PropertyListComponent } from './property/property-list/property-list.component';
+import { NavbarComponent } from './property/navbar/navbar.component';
 
 
 @NgModule({
@@ -12,7 +13,7 @@ import { PropertyListComponent } from './property/property-list/property-list.co
     AppComponent,
     PropertyCardComponent,
     PropertyListComponent,
-
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
