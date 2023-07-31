@@ -13,7 +13,7 @@ export class PropertyListComponent implements OnInit {
 
 
 
-  properties: any;
+  properties: Array<any> = [];
 
   // private apiUrl = 'src/data/properties.json';
   constructor(private housingService: HousingService) { }
