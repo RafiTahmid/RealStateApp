@@ -11,22 +11,21 @@ import { HousingService } from 'src/app/services/housing.service';
 })
 export class PropertyListComponent implements OnInit {
 
-
-
-  properties: Array<any> = [];
+  properties: any;
 
   // private apiUrl = 'src/data/properties.json';
   constructor(private housingService: HousingService) { }
 
-  ngOnInit():void {
+  ngOnInit(): void {
     this.housingService.getAllProperties().subscribe(
-        data =>{
-            this.properties = data;
-            console.log(data)
-          },
-          error => {console.error('httperror');
-          console.log(error)
-        }          
+      data => {
+        this.properties = data;
+        console.log(data)
+      },
+      error => {
+        console.error('httperror');
+        console.log(error)
+      }
     )
   }
 
