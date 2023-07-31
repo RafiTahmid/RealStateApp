@@ -1,3 +1,6 @@
 .property-card{
-    width: 273px;
+    width: 428px;
+}
+.property-card:hove img{
+    transform: scale();
 }

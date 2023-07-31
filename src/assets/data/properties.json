@@ -1,0 +1,26 @@
+[
+    {
+      "Id": 1,
+      "Name": "HomeSweetHome",
+      "Type": "House",
+      "Price": 12000
+    },
+    {
+      "Id": 2,
+      "Name": "HomeSweetHome-2",
+      "Type": "House",
+      "Price": 120002
+    },
+    {
+      "Id": 3,
+      "Name": "HomeSweetHome-3",
+      "Type": "House",
+      "Price": 120003
+    },
+    {
+      "Id": 4,
+      "Name": "HomeSweetHome-4",
+      "Type": "House",
+      "Price": 120004
+    }
+]
