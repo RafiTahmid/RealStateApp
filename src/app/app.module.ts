@@ -12,7 +12,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 const appRoutes: Routes = [
   { path: '', component: PropertyListComponent },
-  { path: 'add-property', component: AddPropertyComponent }
+  { path: 'add-property', component: PropertyListComponent },
+  { path: 'rent-property', component: AddPropertyComponent }
 ]
 
 
